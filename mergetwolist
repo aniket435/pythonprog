@@ -1,0 +1,16 @@
+lst = []
+n=input('enter the number of element in 1 list' )
+for i in range (0,n):
+    ele=input()
+    lst.append(ele)
+print('first list is',lst)
+llst = []
+m=input('enter the number of element in 2 list' )
+for i in range(0,m):
+    ele=input()
+    llst.append(ele)
+print('secound list is',llst)
+new=lst+llst
+print('merged list is',new)
+new.sort()
+print('sorted list is',new)

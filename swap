@@ -1,0 +1,21 @@
+
+a=input('enter the value of a')
+b=input('enter the value of b')
+
+def swap(x,y):
+    x,y=y,x
+    print(x)
+    print(y)
+swap(a,b)
+
+def random(x,y):
+    return x*x+2*x*y+y*y
+print 'the random number is', random(a,b)
+
+def km(x):
+    return x/0.62137
+print 'miles of' +str(a)+'is' ,km(a)
+
+def celcius(x):
+    return x*1.8+32
+print 'feranhite of' +str(a)+'is' ,celcius(a)

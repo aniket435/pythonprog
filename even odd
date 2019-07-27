@@ -1,0 +1,19 @@
+lst = []
+n=input('enter the number of element' )
+for i in range(0, n):
+    ele = int(input())
+
+    lst.append(ele)
+print(lst)
+
+def splitevenodd(lst):
+    evenlist = []
+    oddlist = []
+    for i in lst:
+        if (i % 2 == 0):
+            evenlist.append(i)
+        else:
+            oddlist.append(i)
+    print("Even lists:", evenlist)
+    print("Odd lists:", oddlist)
+print(splitevenodd(lst))

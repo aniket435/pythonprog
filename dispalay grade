@@ -1,0 +1,79 @@
+a=input('enter the first subject number')
+b=input('enter the secound subject number')
+c=input('enter the third subject number')
+e=input('enter the fourth subject number')
+f=input('enter the fifth subject number')
+if(a<33):
+    print('sub1=F')
+elif(a<45):
+    print('sub 1=D')
+elif(a<60):
+    print('sub 1=C')
+elif(a<75):
+    print('sub 1=B')
+elif(a>75):
+    print('sub 1=A')
+else:
+    print('enter valid input')
+if(b<33):
+    print('sub 1=F')
+elif(b<45):
+    print('sub 1=D')
+elif(b<60):
+    print('sub 1=C')
+elif(b<75):
+    print('sub 1=B')
+elif(b>75):
+    print('sub 1=A')
+else:
+    print('enter valid input')
+if(c<33):
+    print('sub 1=F')
+elif(c<45):
+    print('sub 1=D')
+elif(c<60):
+    print('sub 1=C')
+elif(c<75):
+    print('sub 1=B')
+elif(c>75):
+    print('sub 1=A')
+else:
+    print('enter valid input')
+if(e<33):
+    print('sub 1=F')
+elif(e<45):
+    print('sub 1=D')
+elif(e<60):
+    print('sub 1=C')
+elif(e<75):
+    print('sub 1=B')
+elif(e>75):
+    print('sub 1=A')
+else:
+    print('enter valid input')
+if(f<33):
+    print('sub 1=F')
+elif(f<45):
+    print('sub 1=D')
+elif(f<60):
+    print('sub 1=C')
+elif(f<75):
+    print('sub 1=B')
+elif(f>75):
+    print('sub 1=A')
+else:
+    print('enter valid input')
+d=(a+b+c+e+f)*100/500
+print('your persentage is',d)
+if (d < 33):
+    print('overall average is =F')
+elif(d<45):
+    print('overall grade is =D')
+elif(d<60):
+    print('overall grade is =C')
+elif(d<75):
+    print('overall grade is =B')
+elif(d>75):
+    print('overall grade is =A')
+else:
+    print('enter valid input')
